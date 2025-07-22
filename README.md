@@ -9,9 +9,13 @@ A simple distributed system that demonstrates **Change Data Capture (CDC)** usin
 - 🔄 **Change Data Capture** using Debezium monitoring PostgreSQL WAL logs
 - ⚡ **Real-time streaming** of database changes via Apache Kafka
 - 🧱 **CQRS** separation of write and read databases
-- 🛠️ .NET Worker Service as Kafka consumer for asynchronous processing
-- 🐳 Fully containerized with Docker Compose
-- 📡 **Kafka UI** dashboard for monitoring topics on port 9000
+- 🛠️ **.NET** Worker Service as Kafka consumer for asynchronous processing
+- 📡 **Kafka UI** dashboard for monitoring topics
+- 🧱 **CQRS-style** separation of write and read databases
+- 🛠️ **.NET Worker Service** as Kafka consumer for asynchronous processing
+- 🐳 **Docker Compose** for service orchestration
+- 📡 **Kafka UI** dashboard for monitoring topics and events
+- 🔐 **Secure** mimical configuration with environment variables
 
 ---
 
@@ -109,8 +113,9 @@ docker-compose up --build
 This starts:
 
 - PostgreSQL (writer)
+- PostgreSQL (2 read replicas)
 - Debezium (with Kafka Connect)
-- Zookeeper & Kafka
+- Kafka
 - Kafka UI (port 9000)
 - Web API (HTTP on 8080, HTTPS on 8081)
 - PGAdmin (port 5050)
@@ -126,6 +131,6 @@ Access endpoints:
 
 ## 👨‍💻 Author
 
-**Mustafa** – Full Stack Software Engineer exploring distributed systems and real-time data replication.
+**Mustafa** – Full Stack Software Engineer passionate about distributed systems and real-time data architectures.
 
-Feel free to open issues or pull requests for enhancements!
+# Feel free to open issues or pull requests for enhancements!
