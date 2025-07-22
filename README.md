@@ -47,7 +47,7 @@ This flow illustrates how a user request travels through the system:
 
 ---
 
-[![View Architecture Diagram](https://img.shields.io/badge/View_Diagram-PDF-blue)](./figjam-diagram.pdf)
+[![View Architecture Diagram](https://img.shields.io/badge/View_Diagram-PDF-blue)](./Assets/Replication.pdf)
 
 ---
 
