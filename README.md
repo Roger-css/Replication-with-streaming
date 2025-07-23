@@ -75,7 +75,6 @@ This flow illustrates how a user request travels through the system:
 ├── WorkerService/            # .NET Worker Service (Kafka consumer)
 ├── docker-compose.yml        # Docker Compose orchestration (includes sample .env)
 ├── .env                      # Sample environment variables preconfigured
-├── scripts/                  # Utility scripts (e.g., DB setup)
 ├── README.md                 # Project documentation
 └── LICENSE                   # MIT license file
 ```
